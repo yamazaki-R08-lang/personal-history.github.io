@@ -3,42 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Personal-History</title>
   </head>
+
   <body>
-    <header class="header">
-      <div class="header-inner">
+    <div class="site">
+      <header class="header">
         <a href="#top" class="logo">自己紹介サイト</a>
-      </div>
-      <div class="header-right">
+
         <nav class="global-nav">
           <ul class="nav-list">
-            <li class="nav-item"><a href="#about">About</a></li>
-            <li class="nav-item"><a href="#skills">Skills</a></li>
-            <li class="nav-item"><a href="hobby">Hobby</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobby">hobby</a></li>
           </ul>
         </nav>
-      </div>
-    </header>
-    <main class="mainvisual" id="top">
-      <section id="about" class="wrapper">
-        <span class="section-title">HTML</span>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-      </section>
-      <section id="skills" class="wrapper">
-        <span class="section-title">CSS</span>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-      </section>
-      <section id="skills" class="wrapper">
-        <span class="section-title">CSS</span>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-      </section>
-    </main>
+      </header>
+
+      <main id="top">
+        <section id="about" class="about">
+          <h2 class="section-title">About</h2>
+          <p>
+            テキストテキストテキストテキスト<br />
+            テキストテキストテキストテキスト<br />
+            テキストテキストテキストテキスト
+          </p>
+        </section>
+
+        <section id="skills" class="skills">
+          <h2 class="section-title">Skills</h2>
+
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-image"></div>
+              <p>
+                テキストテキスト<br />
+                テキストテキスト<br />
+                テキストテキスト<br />
+                テキストテキスト
+              </p>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-image"></div>
+              <p>
+                テキストテキスト<br />
+                テキストテキスト<br />
+                テキストテキスト<br />
+                テキストテキスト
+              </p>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-image"></div>
+              <p>
+                テキストテキスト<br />
+                テキストテキスト<br />
+                テキストテキスト<br />
+                テキストテキスト
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="hobby" class="hobby">
+          <h2 class="section-title">Hobby</h2>
+          <div class="hobby-image"></div>
+          <p>
+            テキストテキストテキストテキスト<br />
+            テキストテキストテキストテキスト
+          </p>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

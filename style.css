@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+body {
+  background-color: #222;
+  font-family: Arial, sans-serif;
+  color: #222;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.site {
+  width: 1000px;
+  margin: 70px auto;
+  background-color: #fff;
+}
+
+.header {
+  height: 170px;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  gap: 35px;
+  font-size: 26px;
+}
+
+.section-title {
+  font-size: 48px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.about {
+  background-color: #ddd;
+  padding: 80px 0 95px;
+  text-align: center;
+}
+
+.about .section-title {
+  margin-bottom: 45px;
+}
+
+.about p {
+  font-size: 22px;
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+.skills {
+  padding: 110px 115px 80px;
+}
+
+.skills .section-title {
+  margin-bottom: 80px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 110px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.skill-image {
+  width: 360px;
+  height: 210px;
+  background-color: #ddd;
+}
+
+.skill-item p {
+  width: 260px;
+  font-size: 22px;
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+.hobby {
+  padding: 70px 0 120px;
+  text-align: center;
+}
+
+.hobby .section-title {
+  margin-bottom: 40px;
+}
+
+.hobby-image {
+  width: 380px;
+  height: 170px;
+  margin: 0 auto 35px;
+  background-color: #ddd;
+}
+
+.hobby p {
+  font-size: 22px;
+  line-height: 2.2;
+  font-weight: bold;
+}
