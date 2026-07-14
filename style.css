@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body {
-  background-color: #222;
   font-family: Arial, sans-serif;
   color: #222;
   margin: 0;
@@ -9,6 +8,7 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 a {
@@ -80,7 +80,8 @@ a {
 .skill-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 95px;
 }
 
 .skill-item:nth-child(even) {
@@ -90,11 +91,13 @@ a {
 .skill-image {
   width: 360px;
   height: 210px;
+  flex-shrink: 0;
   background-color: #ddd;
 }
 
 .skill-item p {
   width: 260px;
+  margin: 0;
   font-size: 22px;
   line-height: 1.7;
   font-weight: bold;
